@@ -1,12 +1,12 @@
 
 var image1 = new Image();
-image1.src = "slide.jpg";
+image1.src = "assets/imgs/slide.jpg";
 var image2 = new Image();
-image2.src = "slide2.jpg";
+image2.src = "assets/imgs/slide2.jpg";
 var image3 = new Image();
-image3.src = "slide3.jpg";
+image3.src = "assets/imgs/slide3.jpg";
 var image4 = new Image();
-image4.src = "slide4.jpg";
+image4.src = "assets/imgs/slide4.jpg";
 
 
 var step=1;
