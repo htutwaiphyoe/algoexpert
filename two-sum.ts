@@ -1,14 +1,10 @@
 function twoSum(arr: number[], sum: number) {
-  const cache = {} as any;
+  const cache: { [key: number]: number } = {};
   for (let i = 0; i < arr.length; i++) {
     const cur = arr[i];
     const pair = sum - cur;
-
-    if (cache[pair]) {
-      return [cache[pair], cur];
-    } else {
-      cache[cur] = cur;
-    }
+    if (cache[pair]) return [cache[pair], cur];
+    cache[cur] = cur;
   }
 }
 
